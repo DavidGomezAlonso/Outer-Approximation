@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <gurobi_c++.h>
 #include <vector>
@@ -25,7 +24,7 @@ struct solProblemaDual {
     double f_z;
     vector<double> omega;
     vector<double> grad;
-    bool factible=0;    // TODO: Sugerido por Claude - Revisar
+    bool factible=0;    
 
 };
 struct solProblemaMin {
